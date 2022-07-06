@@ -1,7 +1,13 @@
 :root{
     --azul:#3772FF;
-    --amarelo:#ffcb47;
-    --branco:#ffffff;
-    --cinza: #909090;
-    --preto:#202020;
+    --coral:#FC7071;
+    --verde:#36D6AD;
+    --creme:#FCF0E3;
+    --cinza-claro:#BCBCBC;
+    --cinza:#BCBCBC;
+    --cinza-claro-fundos:#F6F6F6;
+    --branco:#fff;
+    
 }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap');

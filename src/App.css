@@ -1,9 +1,9 @@
 .App {
   text-align: center;
-  background-image: url('./assets/img/teste.svg') , url('./assets/img/SplashMeio.svg'), url('./assets/img/pets-home.png');
-  background-position: top 0 left, right, bottom center;
+  background-image: url('./assets/img/SplashMeio.svg'), url('./assets/img/pets-home.png');
+  background-position:  right, bottom center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 89vh;
   width: 100vw;
 }
 

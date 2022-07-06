@@ -3,4 +3,5 @@
 
 body{
     background-color: var(--azul);
+    box-sizing: border-box;
 }

@@ -1,0 +1,20 @@
+header{
+    background-image: url('../../assets/img/teste.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 32vh;
+    z-index: 999px;
+    position: fixed;
+    width: 100vw;
+}
+
+.div-header{
+   padding-top: 3rem;
+   display: flex;
+   justify-content: space-around;
+    width: 42vw;
+}
+
+.icone-header{
+    width: 1.2rem;
+}
