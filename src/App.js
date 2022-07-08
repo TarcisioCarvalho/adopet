@@ -15,7 +15,10 @@ function App() {
     </main>
     <Footer/>  */}
     <Header/>
-   
+    <main>
+      <Inicial/>
+    </main>
+    <Footer/>
     </>
   );
 }

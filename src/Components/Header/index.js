@@ -3,11 +3,11 @@ import casa from '../../assets/ico/casa.svg';
 import mensagens from '../../assets/ico/mensagens.svg';
 const Header = () =>{
     return (
-        <header>
-            <div className='div-header'>
+        <header className='header'>
+            <nav className='nav-header'>
                 <img src={casa} alt=''  className='icone-header'/>
                 <img src={mensagens} alt ='' className='icone-header'/>
-            </div>
+            </nav>
         </header>
     )
 }

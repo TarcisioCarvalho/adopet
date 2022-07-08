@@ -1,4 +1,10 @@
-
-.div-header{
-    
+.header{
+    border: 1px solid red;
+}
+.nav-header{
+    padding-top: 3rem;
+    max-width: 9.34rem;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: unset;
 }
