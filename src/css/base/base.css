@@ -2,7 +2,7 @@
 @import url(_variables.css);
 
 body{
-    position: relative;
     background-color: var(--azul);
     box-sizing: border-box;
+    height: 10vh;
 }

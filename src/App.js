@@ -8,12 +8,13 @@ import Inicial from './Components/Inicial';
 function App() {
   return (
     <>
-      <Header/>
+   {/*    <Header/>
     <main className="App">
        <Inicial/>
         
     </main>
-    <Footer/> 
+    <Footer/>  */}
+    <Header/>
    
     </>
   );

@@ -1,21 +1,4 @@
-header{
-    background-image: url('../../assets/img/teste.svg');
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    top: 0;
-    height: 32vh;
-    z-index: -2px;
-    position: absolute;
-    width: 100vw;
-}
 
 .div-header{
-   padding-top: 5.4vh;
-   display: flex;
-   justify-content: space-around;
-   width: 42vw;
-}
-
-.icone-header{
-    width: 1.2rem;
+    
 }
