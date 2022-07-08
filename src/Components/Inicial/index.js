@@ -3,6 +3,7 @@ import logo from '../../assets/img/logo.svg'
 import Button from '../Button';
 const Inicial = () =>{
     return (
+        <>
         <section className='inicial'>
              <img src={logo} alt=''/>
             <h2>Boas Vindas!</h2>
@@ -10,6 +11,8 @@ const Inicial = () =>{
             <Button>Já tenho conta</Button>
             <Button>Quero me cadastrar</Button> 
         </section>
+        <div className='inicial__espacamento'></div>
+        </>
     )
 }
 

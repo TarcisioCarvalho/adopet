@@ -2,10 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     margin-top: 8rem;
     gap: 1rem;
-    border: 1px solid red;
 }
 
 .inicial h2{
@@ -25,4 +23,8 @@
 
 .inicial .button{
     width: 50%;
+}
+
+.inicial__espacamento{
+    height: 17.75rem;
 }
