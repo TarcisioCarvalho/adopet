@@ -1,0 +1,52 @@
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 168px;
+    min-height: 720px;
+    padding-bottom: 6.5rem;
+}
+
+.mensagens__paragrafo{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    width: 68%;
+    text-align: center;
+    color: var(--azul);
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.mensagens__form{
+    background-color: var(--cinza-claro-fundos);
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mensagens input {
+    width: 89%;
+    background-color: var(--branco);
+}
+
+.mensagens input::placeholder {
+   font-size: .875rem;
+   text-align: left;
+   padding-left: 1rem;
+}
+
+.mensagens label{
+    align-self: flex-start;
+    margin-left: 1rem;
+    color: var(--azul);
+}
+
+.mensagens__form button{
+    width: 41%;
+   
+}

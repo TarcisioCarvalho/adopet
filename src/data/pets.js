@@ -3,7 +3,7 @@
  import Sirius from '../assets/img/Sirius.png';
  import Fiona from '../assets/img/Fiona.png';
  import Sid from '../assets/img/Sid.png';
- import Yoda from '../assets/img/Lua.png';
+ import Yoda from '../assets/img/Yoda.png';
  import Amora from '../assets/img/Amora.png';
  import Zelda from '../assets/img/Zelda.png';
  import Lua from '../assets/img/Lua.png';

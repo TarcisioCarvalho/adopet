@@ -12,7 +12,7 @@ const Card = (props) =>{
                     <p>{props.caracteristicas}</p>
                 </div>
                 <p className='card__localidade'>{props.localidade}</p>
-                <a href='./' className='card__link'>Falar com responsavel</a>
+                <a href='./'><p className='card__link'>Falar com responsavel</p></a>
             </div>
 
         </article>

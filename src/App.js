@@ -6,6 +6,7 @@ import Inicial from './Components/Inicial';
 import Cadastro from './Components/Cadastro';
 import Login from './Components/Login';
 import Home from './Components/Home';
+import Mensagens from './Components/Mensagens';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
      {/*  <Inicial/> */}
       {/*<Cadastro/>*/}
       {/* <Login/> */}
-      <Home/>
+      {/* <Home/> */}
+      <Mensagens/>
     </main>
     <Footer/>
     </>

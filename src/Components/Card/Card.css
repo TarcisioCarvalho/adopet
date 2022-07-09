@@ -39,4 +39,14 @@
     color: var(--cinza);
     font-size: .625rem;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.card__link::before{
+    content: url('../../assets/ico/icone_mensagem.svg');
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
 }
