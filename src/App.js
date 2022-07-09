@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Inicial from './Components/Inicial';
+import Cadastro from './Components/Cadastro';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <Footer/>  */}
     <Header/>
     <main>
-      <Inicial/>
+     {/*  <Inicial/> */}
+      <Cadastro/>
     </main>
     <Footer/>
     </>

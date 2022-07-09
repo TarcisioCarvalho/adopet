@@ -1,0 +1,27 @@
+.input{
+    background-color: var(--cinza-claro-fundos);
+    color: var(--azul);
+    filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.15));
+    border-radius: 6px;
+    height: 2.5rem;
+    width: 89vw;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.input::placeholder{
+    font-size: .75rem;
+    text-align: center;
+    color: var(--cinza);
+    vertical-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label{
+    text-align: center;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza);
+}

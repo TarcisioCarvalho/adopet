@@ -1,25 +1,22 @@
+body{
+    position: relative;
+    background-color: var(--azul);
+    box-sizing: border-box;
+    background-image: url('../../assets/img/teste.svg'),url('../../assets/img/SplashMeio.svg'),url('../../assets/img/pets-home.png');
+    background-repeat: no-repeat;
+    background-position: top  left,right,center bottom 6.5rem;
+}
+
+
 .inicial{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 8rem;
     gap: 1rem;
+    color: var(--branco);
 }
 
-.inicial h2{
-    padding-top: .5rem;
-    font-size: 1.625rem;
-    color: var(--branco);
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.inicial p{
-    font-family: 'Poppins', sans-serif;
-    color: var(--branco);
-    line-height: 1.5rem;
-    width: 68%;
-    text-align: center;
-}
 
 .inicial .button{
     width: 50%;
