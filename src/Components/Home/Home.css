@@ -1,0 +1,11 @@
+.home{
+    margin-top: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.home__espacamento{
+    height: 8rem;
+}

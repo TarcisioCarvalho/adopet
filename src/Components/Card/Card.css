@@ -1,0 +1,42 @@
+
+.card{
+    display: flex;
+    background-color: var(--cinza-claro-fundos);
+    justify-content: space-around;
+    align-items: center;
+}
+.card__img{
+    width: 148px;
+    height: 148px;
+}
+
+
+.card_dados--nome{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--azul);
+}
+
+.card_dados--dados{
+    font-family: 'Poppins', sans-serif;
+    margin-top: .5rem;
+    color: var(--cinza);
+    font-size: .875rem;
+    line-height: 20px;
+}
+
+.card__localidade{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: .75rem;
+    color: var(--cinza);
+}
+
+
+.card__link{
+    margin-top: 7px;
+    color: var(--cinza);
+    font-size: .625rem;
+    font-family: 'Poppins', sans-serif;
+}

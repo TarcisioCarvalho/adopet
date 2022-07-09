@@ -1,0 +1,30 @@
+.login{
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+        color: var(--azul);
+    
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.login__link{
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--coral);
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.login__form button{
+        width: 41%;
+}

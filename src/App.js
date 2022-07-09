@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Inicial from './Components/Inicial';
 import Cadastro from './Components/Cadastro';
+import Login from './Components/Login';
+import Home from './Components/Home';
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
     <Header/>
     <main>
      {/*  <Inicial/> */}
-      <Cadastro/>
+      {/*<Cadastro/>*/}
+      {/* <Login/> */}
+      <Home/>
     </main>
     <Footer/>
     </>
