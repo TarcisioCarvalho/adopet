@@ -5,7 +5,7 @@ import './Cadastro.css';
 
 const Cadastro = () =>{
     return(
-
+        <>
         <section className='cadastro'>
             <Logo paragrafo ='Ainda não tem cadastro?
 Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
@@ -17,6 +17,8 @@ Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
                 <Button>Cadastrar</Button>
             </form>
         </section>
+        <div className='cadastro__espacamento'></div>
+        </>
     )
 }
 

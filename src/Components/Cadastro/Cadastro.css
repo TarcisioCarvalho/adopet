@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-image: url('../../assets/img/patas.png'), url('../../assets/img/teste.svg'), url('../../assets/img/curva-esquerda.png');
     background-repeat: no-repeat;
-    background-position: top  right,top left,left bottom 8.125rem;
+    background-position: top  right,top left,left bottom 30%;
 }
 
 .cadastro{
@@ -25,4 +25,8 @@ body{
 
 .cadastra__form button{
     width: 41%;
+}
+
+.cadastro__espacamento{
+    height: 10rem;
 }
