@@ -1,12 +1,14 @@
 .input{
     background-color: var(--cinza-claro-fundos);
-    color: var(--azul);
+    color: #737380;
     filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.15));
     border-radius: 6px;
     height: 2.5rem;
+    padding-left: 1rem;
     width: 89vw;
     border: none;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .input::placeholder{

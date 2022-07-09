@@ -1,0 +1,82 @@
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 168px;
+    min-height: 720px;
+    padding-bottom: 8.5rem;
+}
+
+.perfil__paragrafo{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    width: 68%;
+    text-align: center;
+    color: var(--azul);
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.perfil__form{
+    background-color: var(--cinza-claro-fundos);
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.perfil__form--titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3125rem;
+    color: #737380;
+}
+
+.perfil input {
+    width: 89%;
+    background-color: var(--branco);
+}
+
+.perfil input::placeholder {
+   font-size: .875rem;
+   text-align: left;
+   padding-left: 1rem;
+}
+
+.perfil label{
+    align-self: flex-start;
+    margin-left: 1rem;
+    color: var(--azul);
+}
+
+.perfil__form button{
+    width: 41%;
+   
+}
+
+.perfil__form--div-foto{
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    align-items: center;
+}
+
+.perfil__form--div-foto .label{
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-left: 0;
+}
+
+.perfil__form--img{
+    width: 80px;
+    height: 80px;
+}
+
+.perfil__form--div-paragrafo{
+    font-size: .75rem;
+    color: var(--coral);
+    line-height: 24px;
+}
