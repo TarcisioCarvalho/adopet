@@ -40,7 +40,8 @@ A Iniciar.
 A Iniciar.
 
 ## Layout mobile
-<img src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg'>
+<img src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg' width='185px' height = '471px'>
+<img src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-home.jpg' width='185px' height = '471px'>
 
 
 ## Layout web
