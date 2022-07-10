@@ -40,12 +40,8 @@ A Iniciar.
 A Iniciar.
 
 ## Layout mobile
-![Mobile 1](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg)
-![Mobile 2](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/home-mobile.jpg)
-![Mobile 3](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/cadastro-mobile.jpg)
-![Mobile 4](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/login-mobile.jpg)
-![Mobile 5](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/mensagem-mobile.jpg)
-![Mobile 6](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/perfil-mobile.jpg)
+<img src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg'>
+
 
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
