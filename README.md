@@ -44,11 +44,12 @@ A Iniciar.
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg' width='185px' height = '471px'>
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/home-mobile.jpg' width='185px' height = '471px'>
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/cadastro-mobile.jpg' width='185px' height = '471px'>
+</p>
+<p float = 'left'>
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/mensagem-mobile.jpg' width='185px' height = '471px'>
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/login-mobile.jpg' width='185px' height = '471px'>
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/perfil-mobile.jpg' width='185px' height = '471px'>
 </p>
-
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
