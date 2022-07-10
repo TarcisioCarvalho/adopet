@@ -50,67 +50,44 @@ A Iniciar.
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/login-mobile.jpg' width='185px' height = '471px'>&nbsp;&nbsp;&nbsp;
 <img  src = 'https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/perfil-mobile.jpg' width='185px' height = '471px'>&nbsp;&nbsp;&nbsp;
 </p>
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+
 ## Front end
-- HTML / CSS / JS / TypeScript
+- HTML / CSS / JS 
 - ReactJS
-- React Native
-- Apex Charts
-- Expo
+
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+
+- Front end web: Vercel
+
 
 # Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 11
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
 
 ## Front end web
 Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/TarcisioCarvalho/adopet
 
 # entrar na pasta do projeto front end web
-cd front-web
+cd adopet
 
 # instalar dependências
-yarn install
+npm install
 
 # executar o projeto
-yarn start
+npm start
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
+Tarcísio José de Amorim Carvalho
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/tarcisio-jose-de-amorim-carvalho
+
 
