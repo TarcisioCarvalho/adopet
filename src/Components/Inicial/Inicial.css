@@ -5,6 +5,7 @@
     background-image: url('../../assets/img/teste.svg'),url('../../assets/img/SplashMeio.svg'),url('../../assets/img/pets-home.png');
     background-repeat: no-repeat;
     background-position: top  left,right,center bottom 6.5rem;
+    min-height: 100vh;
 }
 
 
@@ -23,5 +24,5 @@
 }
 
 .inicial__espacamento{
-    height: 15rem;
+    height: 10rem;
 }

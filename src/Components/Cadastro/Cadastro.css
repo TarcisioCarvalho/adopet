@@ -5,6 +5,7 @@
     background-image: url('../../assets/img/patas.png'), url('../../assets/img/teste.svg'), url('../../assets/img/curva-esquerda.png');
     background-repeat: no-repeat;
     background-position: top  right,top left,left bottom 30%;
+    min-height: 100vh;
 }
 
 .cadastro{
