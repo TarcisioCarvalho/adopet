@@ -1,5 +1,8 @@
 import './css/base/base.css'
 import './App.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom'; 
+
+
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Inicial from './Components/Inicial';
@@ -10,24 +13,30 @@ import Mensagens from './Components/Mensagens';
 import Perfil from './Components/Perfil';
 
 
+
+
 function App() {
+  
   return (
     <>
-   {/*    <Header/>
-    <main className="App">
-       <Inicial/>
+    
+    <BrowserRouter>
+
+          <Header/>
+
+          <Routes>
+              
+              <Route path='/' element={<Inicial/>}/>
+              <Route path='home' element={<Home /> } />
+              <Route path='cadastro' element={<Cadastro/>}/>
+              <Route path='login' element={<Login/>}/>
+              <Route path='mensagens' element={<Mensagens/>}/>
+              <Route path='perfil' element={<Perfil/>}/>
+              
+          </Routes>
+          
         
-    </main>
-    <Footer/>  */}
-    <Header/>
-    <main>
-     {/*  <Inicial/> */}
-      {/*<Cadastro/>*/}
-      {/* <Login/> */}
-      {/* <Home/> */}
-      {/* <Mensagens/> */}
-      <Perfil/>
-    </main>
+    </BrowserRouter>
     <Footer/>
     </>
   );

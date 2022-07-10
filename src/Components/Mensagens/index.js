@@ -1,9 +1,15 @@
+import alteraEstiloBody from '../../utils/altera-estilo-body';
+import alteraHeader from '../../utils/altera-header';
+import alteraIconeUsuario from '../../utils/altera-icone-usuario';
 import Button from '../Button';
 import Input from '../Input';
 import TextArea from '../TextArea';
 import './Mensagens.css';
 
 const Mensagens = () =>{
+    alteraEstiloBody('body-home');
+    alteraHeader(true);
+    alteraIconeUsuario(false);
     return (
         <>
        

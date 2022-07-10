@@ -1,4 +1,4 @@
-body{
+.body-inicial{
     position: relative;
     background-color: var(--azul);
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8rem;
+    padding-top: 6rem;
     gap: 1rem;
     color: var(--branco);
 }
@@ -23,5 +23,5 @@ body{
 }
 
 .inicial__espacamento{
-    height: 17.75rem;
+    height: 15rem;
 }

@@ -3,8 +3,14 @@ import Input from '../Input';
 import TextArea from '../TextArea';
 import './Perfil.css';
 import joana from '../../assets/img/joana.png'
+import alteraEstiloBody from '../../utils/altera-estilo-body';
+import alteraIconeUsuario from '../../utils/altera-icone-usuario';
 
 const Perfil = () =>{
+
+    alteraEstiloBody('body-home');
+    
+    alteraIconeUsuario(true);
     return (
        <>
             <section className='perfil'>

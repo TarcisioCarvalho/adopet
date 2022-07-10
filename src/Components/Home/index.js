@@ -1,9 +1,19 @@
 import Card from '../Card';
 import './Home.css';
 import pets from '../../data/pets.js'
+import alteraEstiloBody from '../../utils/altera-estilo-body';
+import alteraHeader from '../../utils/altera-header';
+import alteraIconeUsuario from '../../utils/altera-icone-usuario';
 
 
 const Home = () =>{
+
+     alteraEstiloBody('body-home');
+
+     
+
+   alteraHeader(true);
+   alteraIconeUsuario(false);
     return (
         <>
             <section className='home'>

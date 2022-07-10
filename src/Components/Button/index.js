@@ -1,8 +1,15 @@
 import './Button.css'
+import {useNavigate} from 'react-router-dom';
+
+
 
 const Button = (props) =>{
+    const navigate = useNavigate();
+    const handleClick = () =>{
+    navigate(props.pagina);
+  }
     return(
-        <button className='button'>{props.children}</button>
+        <button onClick={handleClick}  className='button'>{props.children}</button>
     )
 }
 

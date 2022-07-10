@@ -3,5 +3,18 @@
 
 body{
     
-    min-height: 100vh;
+   
+}
+
+.footer{
+    background-color: var(--verde);
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    color: var(--branco);
+    position: absolute;
+    bottom: 0;
 }

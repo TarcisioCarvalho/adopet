@@ -1,19 +1,21 @@
+import alteraEstiloBody from '../../utils/altera-estilo-body';
 import Button from '../Button';
 import Input from '../Input';
 import Logo from '../Logo';
 import './Cadastro.css';
 
 const Cadastro = () =>{
+    alteraEstiloBody('body--cadastro--login');
     return(
         <>
         <section className='cadastro'>
             <Logo paragrafo ='Ainda não tem cadastro?
 Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
             <form className='cadastra__form'>
-                <Input placeHolder = 'Digite seu melhor email' label='email'/>
-                <Input placeHolder = 'Digite seu melhor email' label='email'/>
-                <Input placeHolder = 'Digite seu melhor email' label='email'/>
-                <Input placeHolder = 'password' label='Password' type = 'password'/>
+                <Input placeHolder = 'Digite seu melhor email' label='Email'/>
+                <Input placeHolder = 'Digite seu nome completo' label='Nome'/>
+                <Input placeHolder = 'Crie uma senha' label='Senha' type = 'password'/>
+                <Input placeHolder = 'Repita a senha criada acima' label='Confirma sua senha' type = 'password'/>
                 <Button>Cadastrar</Button>
             </form>
         </section>

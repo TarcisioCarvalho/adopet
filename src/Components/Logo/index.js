@@ -1,8 +1,14 @@
 import './Logo.css'
-import logo from '../../assets/img/logo.svg'
+import logoBranca from '../../assets/img/logo.svg'
 import logoAzul from '../../assets/img/logo-azul.png'
 
+
+
+
+
 const Logo = (props) =>{
+   
+    
     return(
         <>
             <img src={logoAzul} className = 'logo_img' alt='Logo do Adopet'/>

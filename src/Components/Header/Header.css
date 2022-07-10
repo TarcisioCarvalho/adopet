@@ -1,4 +1,4 @@
-.header__tela3{
+.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,13 +8,14 @@
     max-width: 9.34rem;
     display: flex;
     justify-content: space-around;
-   
 }
-
 .icone-header-usuario{
     padding-top: 3rem;
     justify-self: flex-end;
     width: 40px;
     height: 40px;
+}
+
+.none{
     display: none;
 }
