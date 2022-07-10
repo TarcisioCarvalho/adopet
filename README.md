@@ -40,7 +40,7 @@ A Iniciar.
 A Iniciar.
 
 ## Layout mobile
-![Mobile 1](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg)![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://github.com/TarcisioCarvalho/adopet/blob/master/src/assets/img/telas/inicial-mobile.jpg)
 
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
