@@ -5,6 +5,7 @@ import mensagens from '../../assets/ico/mensagens.svg';
 import iconeUsuario from '../../assets/ico/usuario.png';
 import joana from '../../assets/img/joana.png';
 import {Link} from 'react-router-dom';
+import logoTabletDesktop from '../../assets/img/logo-tablet-desktop.svg'
 
 const Header = () =>{
 
@@ -27,11 +28,13 @@ const Header = () =>{
     return (
         <header className={classeHeader} data-header>
             <nav  className='nav-header' style={{minWidth:'9rem'}} >
+            <img src={logoTabletDesktop} alt='Logo do adopet' className='logo-header' />
                 <Link to='home' ><img src={casa} alt=''  className='icone-header'/></Link>
                 <Link to='mensagens'><img src={mensagens} alt ='' className='icone-header'/></Link>
             </nav>
-            <Link to='perfil'  className={classeNone}  data-usuario >
-                <img src={iconeUsuario} alt ='' className={classeUsuario} data-usuario-icone/> <img src={joana} alt =''  className={classePerfil} data-usuario-foto/></Link>
+            <Link to='perfil'  className={classeNone + ' icone-usuario'}  data-usuario >
+                <img src={iconeUsuario} alt =''  className={classeUsuario } data-usuario-icone/> <img src={joana} alt =''  className={classePerfil} data-usuario-foto/>
+            </Link>
         </header>
     )
 }

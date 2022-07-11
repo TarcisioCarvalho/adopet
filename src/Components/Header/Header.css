@@ -2,20 +2,53 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    box-sizing: border-box;
 }
 .nav-header{
     padding-top: 3rem;
-    max-width: 9.34rem;
+    width: 156px;
     display: flex;
     justify-content: space-around;
 }
 .icone-header-usuario{
     padding-top: 3rem;
     justify-self: flex-end;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .none{
     display: none;
+}
+
+.logo-header{
+    display: none;
+}
+
+.icone-usuario{
+    width: 40px;
+    height: 40px;
+}
+
+@media  (min-width:768px) {
+    .header{
+        justify-content: space-between;
+    }
+    .logo-header{
+        width: 128px;
+        height: 30px;
+        display: block;
+        justify-self: flex-start;
+    }
+    .nav-header{
+        justify-self: left;
+        width: 304px;
+        border: 1px solid red;
+    }
+    .icone-usuario{
+        width: 48px;
+        height: 48px;
+        margin-right: 42px;
+    }
 }
