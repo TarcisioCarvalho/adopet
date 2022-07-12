@@ -26,3 +26,17 @@
 .inicial__espacamento{
     height: 10rem;
 }
+
+
+@media  (min-width:768px) {
+    .body-inicial{
+        background-size: 500px,134px,338px;
+    }
+}
+
+
+@media  (min-width:1440px) {
+    .body-inicial{
+        background-size: 560px,134px,346px;
+    }
+}

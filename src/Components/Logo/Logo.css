@@ -14,6 +14,20 @@
 }
 
 .logo_img{
-    width: 142px;
-    height: 34.36px;
+    width: 186px;
+    height: 46.36px;
+}
+
+@media  (min-width:768px) {
+    .logo_img{
+        width: 252px;
+        height: 62px;
+    }
+}
+
+@media  (min-width:1440px) {
+    .logo_img{
+        width: 260px;
+        height: 64px;
+    }
 }

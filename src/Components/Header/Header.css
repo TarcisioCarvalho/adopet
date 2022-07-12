@@ -40,15 +40,24 @@
         height: 30px;
         display: block;
         justify-self: flex-start;
+        
     }
     .nav-header{
         justify-self: left;
         width: 304px;
-        border: 1px solid red;
+        justify-content: space-around;
+       
     }
     .icone-usuario{
         width: 48px;
         height: 48px;
         margin-right: 42px;
+    }
+}
+
+
+@media  (min-width:1440px) {
+    .nav-header{
+        margin-left: 100px;
     }
 }
