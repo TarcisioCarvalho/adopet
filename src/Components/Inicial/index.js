@@ -18,7 +18,7 @@ const Inicial = () =>{
             <Button pagina = 'login'>Já tenho conta</Button>
             <Button pagina= 'cadastro'>Quero me cadastrar</Button> 
         </section>
-        <div className='inicial__espacamento'></div>
+        
         </>
     )
 }

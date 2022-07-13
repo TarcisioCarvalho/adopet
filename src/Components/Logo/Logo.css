@@ -1,13 +1,11 @@
 .logo__titulo{
     padding-top: .5rem;
     font-size: 1.625rem;
-    
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .logo__paragrafo{
     font-family: 'Poppins', sans-serif;
-    
     line-height: 1.5rem;
     width: 68%;
     text-align: center;
@@ -22,6 +20,12 @@
     .logo_img{
         width: 252px;
         height: 62px;
+    }
+    .logo__titulo{
+        font-size: 1.75rem;
+    }
+    .logo__paragrafo{
+        font-size: 1.125rem;
     }
 }
 
