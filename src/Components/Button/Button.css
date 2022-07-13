@@ -9,4 +9,10 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: var(--branco);
+    cursor: pointer;
+    border: 1px solid var(--azul);
+}
+
+.button:hover{
+    background-color: #FF9D9E;
 }

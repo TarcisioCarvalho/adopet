@@ -28,7 +28,7 @@ const Header = () =>{
     return (
         <header className={classeHeader} data-header>
             <nav  className='nav-header' style={{minWidth:'9rem'}} >
-            <img src={logoTabletDesktop} alt='Logo do adopet' className='logo-header' />
+                <Link to='/'><img src={logoTabletDesktop} alt='Logo do adopet' className='logo-header' /></Link>
                 <Link to='home' ><img src={casa} alt=''  className='icone-header'/></Link>
                 <Link to='mensagens'><img src={mensagens} alt ='' className='icone-header'/></Link>
             </nav>

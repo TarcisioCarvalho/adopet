@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 168px;
+    padding-top: 98px;
     gap: 1rem;
     color: var(--branco);
     min-height: 766px;
@@ -29,7 +29,8 @@
 
 @media  (min-width:768px) {
     .inicial{
-        min-height: 766px;
+        min-height: 900px;
+        padding-top: 180;
     }
     .body-inicial{
         background-size: 500px,134px,338px;
@@ -42,6 +43,9 @@
 
 
 @media  (min-width:1440px) {
+    .inicial{
+        padding-top: 36px;
+    }
     .body-inicial{
         background-size: 560px,134px,346px;
     }
