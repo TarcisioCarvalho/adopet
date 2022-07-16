@@ -33,6 +33,10 @@
     .login__form input{
         width: 344px;
     }
+
+    .login__form button{
+        width: 164px;
+    }
 }
 
 @media  (min-width:1400px) {
@@ -41,5 +45,8 @@
     }
     .login__form input[type="password"]{
         width: 362px;
+    }
+    .login__form button{
+        width: 174px;
     }
 }

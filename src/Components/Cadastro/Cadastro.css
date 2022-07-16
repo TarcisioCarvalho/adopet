@@ -37,6 +37,9 @@
     .cadastra__form input{
         width: 344px;
     }
+    .cadastra__form button{
+        width: 174px;
+    }
 
     .body--cadastro--login{
         background-image: url('../../assets/img/patas.png'), url('../../assets/img/teste.svg'), url('../../assets/img/SplashMeio.svg');
@@ -56,5 +59,9 @@
 
 .cadastra__form input[type="password"]{
     width: 362px;
+}
+
+.cadastra__form button{
+    width: 174px;
 }
 }
