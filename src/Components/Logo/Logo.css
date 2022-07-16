@@ -25,11 +25,15 @@
         font-size: 1.75rem;
     }
     .logo__paragrafo{
+        width: 552px;
         font-size: 1.125rem;
     }
 }
 
 @media  (min-width:1440px) {
+    .logo__paragrafo{
+        width: 552px;
+    }
     .logo_img{
         width: 260px;
         height: 64px;

@@ -4,17 +4,19 @@
     box-sizing: border-box;
     background-image: url('../../assets/img/patas.png'), url('../../assets/img/teste.svg'), url('../../assets/img/curva-esquerda.png');
     background-repeat: no-repeat;
-    background-position: top  right,top left,left bottom 30%;
+    background-position: top  right,top left,left bottom 30%  ;
     min-height: 100vh;
+    
 }
 
 .cadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    padding-top: 156px;
     gap: 1rem;
     color: var(--azul);
+    min-height: 766px;
 }
 
 
@@ -28,6 +30,31 @@
     width: 41%;
 }
 
-.cadastro__espacamento{
-    height: 10rem;
+@media  (min-width:768px) {
+    .cadastro{
+        min-height: 900px;
+    }
+    .cadastra__form input{
+        width: 344px;
+    }
+
+    .body--cadastro--login{
+        background-image: url('../../assets/img/patas.png'), url('../../assets/img/teste.svg'), url('../../assets/img/SplashMeio.svg');
+        background-position: top  right,top left,right center;
+        background-size: 224px,560px,134px;
+    }
+}
+
+@media  (min-width:1440px){
+  .cadastro{
+    padding-top: 36px;
+  }
+
+  .cadastra__form input{
+    width: 552px;
+}
+
+.cadastra__form input[type="password"]{
+    width: 362px;
+}
 }

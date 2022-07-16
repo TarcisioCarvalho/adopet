@@ -19,7 +19,7 @@ Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
                 <Button>Cadastrar</Button>
             </form>
         </section>
-        <div className='cadastro__espacamento'></div>
+        
         </>
     )
 }
