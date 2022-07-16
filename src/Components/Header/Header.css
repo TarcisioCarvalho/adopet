@@ -57,6 +57,9 @@
 
 
 @media  (min-width:1440px) {
+    .icone-usuario{
+        margin-right: 174px;
+    }
     .nav-header{
         margin-left: 100px;
     }

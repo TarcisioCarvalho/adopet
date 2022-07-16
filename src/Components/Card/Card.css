@@ -50,3 +50,16 @@
     height: 18px;
     margin-right: 8px;
 }
+
+@media  (min-width:768px) {
+    .card{
+        max-width: 344px;
+    }
+}
+
+@media  (min-width:1440px) {
+    .card{
+        max-width: 363px;
+    }
+}
+
