@@ -36,7 +36,7 @@
         background-size: 500px,134px,338px;
     }
     .inicial .button{
-        width: 44%;
+        width: 344px;
         height: 48px;
     }
 }
@@ -48,5 +48,10 @@
     }
     .body-inicial{
         background-size: 560px,134px,346px;
+    }
+
+    .inicial .button{
+        width: 362px;
+        height: 48px;
     }
 }

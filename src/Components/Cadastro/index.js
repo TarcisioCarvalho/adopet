@@ -1,4 +1,5 @@
 import alteraEstiloBody from '../../utils/altera-estilo-body';
+import alteraHeader from '../../utils/altera-header';
 import Button from '../Button';
 import Input from '../Input';
 import Logo from '../Logo';
@@ -6,6 +7,7 @@ import './Cadastro.css';
 
 const Cadastro = () =>{
     alteraEstiloBody('body--cadastro--login');
+    alteraHeader(false);
     return(
         <>
         <section className='cadastro'>

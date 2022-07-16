@@ -1,4 +1,5 @@
 import alteraEstiloBody from '../../utils/altera-estilo-body';
+import alteraHeader from '../../utils/altera-header';
 import Button from '../Button';
 import Input from '../Input';
 import Logo from '../Logo';
@@ -6,6 +7,7 @@ import './Login.css';
 
 const Login = () =>{
     alteraEstiloBody('body--cadastro--login');
+    alteraHeader(false);
     return (
         <>
             <section className='login'>
@@ -19,7 +21,7 @@ Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
                 
             </form>
         </section>
-        <div className='cadastro__espacamento'></div>
+        
         </>
     )
 }

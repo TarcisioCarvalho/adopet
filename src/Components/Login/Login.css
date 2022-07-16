@@ -26,5 +26,20 @@
 }
 
 .login__form button{
-        width: 41%;
+    width: 41%;
+}
+
+@media  (min-width:768px) {
+    .login__form input{
+        width: 344px;
+    }
+}
+
+@media  (min-width:1400px) {
+    .login__form input{
+        width: 552px;
+    }
+    .login__form input[type="password"]{
+        width: 362px;
+    }
 }
