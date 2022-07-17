@@ -28,6 +28,11 @@
 }
 
 @media  (min-width:768px){
+
+    .body-home{
+        background-size: 560px;
+    }
+
     .home{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -49,7 +54,9 @@
 
 @media  (min-width:1440px){
     .body-home{
-        background-size: 560px;
+        background-image:  url('../../assets/img/teste.svg'), url('../../assets/img/SplashMeio.svg');
+        background-size: 560px,134px;
+        background-position: top left, right;
     }
 
     .home{

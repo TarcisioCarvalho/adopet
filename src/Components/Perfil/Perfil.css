@@ -54,7 +54,6 @@
 
 .perfil__form button{
     width: 41%;
-   
 }
 
 .perfil__form--div-foto{
@@ -79,4 +78,20 @@
     font-size: .75rem;
     color: var(--coral);
     line-height: 24px;
+}
+
+@media  (min-width:768px){
+    .perfil{
+        max-width: 524px;
+        margin: 0 auto;
+        margin-top: 185px;
+    }
+}
+
+@media  (min-width:1440px){
+    .perfil{
+        max-width: 552px;
+        margin: 0 auto;
+        margin-top: 86px;
+    }
 }

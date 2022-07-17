@@ -5,11 +5,12 @@ import './Perfil.css';
 import joana from '../../assets/img/joana.png'
 import alteraEstiloBody from '../../utils/altera-estilo-body';
 import alteraIconeUsuario from '../../utils/altera-icone-usuario';
+import alteraHeader from '../../utils/altera-header';
 
 const Perfil = () =>{
 
-    alteraEstiloBody('body-home');
-    
+    alteraEstiloBody('body-home','body-messagens-perfil');
+    alteraHeader(true);
     alteraIconeUsuario(true);
     return (
        <>

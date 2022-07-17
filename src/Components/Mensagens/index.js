@@ -7,7 +7,7 @@ import TextArea from '../TextArea';
 import './Mensagens.css';
 
 const Mensagens = () =>{
-    alteraEstiloBody('body-home');
+    alteraEstiloBody('body-home','body-messagens-perfil');
     alteraHeader(true);
     alteraIconeUsuario(false);
     return (
