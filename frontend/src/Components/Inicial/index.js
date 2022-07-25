@@ -1,5 +1,4 @@
 import './Inicial.css';
-import logo from '../../assets/img/logo.svg'
 import Button from '../Button';
 import Logo from '../Logo';
 import alteraEstiloBody from '../../utils/altera-estilo-body';
