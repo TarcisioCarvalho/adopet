@@ -1,4 +1,4 @@
-import Card from '../Card';
+import Card from '../../Components/Card';
 import './Home.css';
 import pets from '../../data/pets.js'
 import alteraEstiloBody from '../../utils/altera-estilo-body';

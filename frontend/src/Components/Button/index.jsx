@@ -1,5 +1,6 @@
 import './Button.css'
 import {useNavigate} from 'react-router-dom';
+import { ButtonContainer } from './Button.styles';
 
 
 
@@ -8,8 +9,10 @@ const Button = (props) =>{
     const handleClick = () =>{
     navigate(props.pagina);
   }
+
+ 
     return(
-        <button onClick={handleClick}  className='button'>{props.children}</button>
+        <ButtonContainer tamanhos={props.tamanhos} onClick={handleClick} >{props.children}</ButtonContainer>
     )
 }
 

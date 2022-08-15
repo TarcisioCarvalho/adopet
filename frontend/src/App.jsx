@@ -6,18 +6,14 @@ import { AuthProvider } from './context/auth';
 
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Inicial from './Components/Inicial';
-import Cadastro from './Components/Cadastro';
-import Login from './Components/Login';
-import Home from './Components/Home';
-import Mensagens from './Components/Mensagens';
-import Perfil from './Components/Perfil';
+import Inicial from './pages/Inicial';
+import Cadastro from './pages/Cadastro';
+import Login from './pages/Login';
+import Home from './pages/Home';
+import Mensagens from './pages/Mensagens';
+import Perfil from './pages/Perfil';
 
-const Private = ({Item})=>{
-  const signed = false;
 
-  return signed>0?<Item/>:<Login/>;
-}
 
 
 function App() {
@@ -32,12 +28,13 @@ function App() {
           <Routes>
               
               <Route path='/' element={<Inicial/>}/>
-              <Route path='home' element={<Private Item = {Home}/> } />
+             {/* <Route path='home' element={<Private Item = {Home}/> } />*/}
+              <Route path='home' element={<Home/>}/>
               <Route path='cadastro' element={<Cadastro/>}/>
               <Route path='login' element={<Login/>}/>
-              <Route path='mensagens' element={<Private Item = {Mensagens}/>}/>
-              <Route path='perfil' element={<Private Item = {Perfil}/>}/>
-              <Route path='*' element={<Login/>}/>
+              <Route path='mensagens' element={<Mensagens/>}/>
+              <Route path='perfil' element={<Perfil/>}/>
+              
               
           </Routes>
           

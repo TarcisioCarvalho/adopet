@@ -1,8 +1,8 @@
 import alteraEstiloBody from '../../utils/altera-estilo-body';
 import alteraHeader from '../../utils/altera-header';
-import Button from '../Button';
-import Input from '../Input';
-import Logo from '../Logo';
+import Button from '../../Components/Button';
+import Input from '../../Components/Input';
+import Logo from '../../Components/Logo';
 import './Cadastro.css';
 
 const Cadastro = () =>{

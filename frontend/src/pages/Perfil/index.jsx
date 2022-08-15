@@ -1,6 +1,6 @@
-import Button from '../Button';
-import Input from '../Input';
-import TextArea from '../TextArea';
+import Button from '../../Components/Button';
+import Input from '../../Components/Input';
+import TextArea from '../../Components/TextArea';
 import './Perfil.css';
 import joana from '../../assets/img/joana.png'
 import alteraEstiloBody from '../../utils/altera-estilo-body';

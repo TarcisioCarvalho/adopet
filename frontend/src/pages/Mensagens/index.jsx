@@ -1,9 +1,9 @@
 import alteraEstiloBody from '../../utils/altera-estilo-body';
 import alteraHeader from '../../utils/altera-header';
 import alteraIconeUsuario from '../../utils/altera-icone-usuario';
-import Button from '../Button';
-import Input from '../Input';
-import TextArea from '../TextArea';
+import Button from '../../Components/Button';
+import Input from '../../Components/Input';
+import TextArea from '../../Components/TextArea';
 import './Mensagens.css';
 
 const Mensagens = () =>{
