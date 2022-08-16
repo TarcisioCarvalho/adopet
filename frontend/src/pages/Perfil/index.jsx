@@ -6,12 +6,15 @@ import joana from '../../assets/img/joana.png'
 import alteraEstiloBody from '../../utils/altera-estilo-body';
 import alteraIconeUsuario from '../../utils/altera-icone-usuario';
 import alteraHeader from '../../utils/altera-header';
+import { retornaTamanhosBotao } from '../../utils/retorna-objeto-tamanhos-botao';
 
 const Perfil = () =>{
+    const tamanhosBotao = retornaTamanhosBotao('41%','41%','41%','40px','40px','40px');
 
     alteraEstiloBody('body-home','body-messagens-perfil');
     alteraHeader(true);
     alteraIconeUsuario(true);
+    
     return (
        <>
             <section className='perfil'>
@@ -29,7 +32,7 @@ const Perfil = () =>{
                 <TextArea value='At vero eos et accusamus et iusto odio dignissimos ducimus 
                 qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
                 quas molestias excepturi sint occaecati.' label ='Sobre' placeHolder = 'Escreva sua mensagem.'/>
-                <Button>Salvar</Button>
+                <Button tamanhos={tamanhosBotao}>Salvar</Button>
             </form>
         </section>
        </> 

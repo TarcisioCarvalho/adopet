@@ -46,9 +46,7 @@
     color: var(--azul);
 }
 
-.mensagens__form button{
-    width: 41%;
-}
+
 
 @media  (min-width:768px){
     .mensagens__paragrafo{

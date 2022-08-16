@@ -5,8 +5,12 @@ import Button from '../../Components/Button';
 import Input from '../../Components/Input';
 import TextArea from '../../Components/TextArea';
 import './Mensagens.css';
+import { retornaTamanhosBotao } from '../../utils/retorna-objeto-tamanhos-botao';
 
 const Mensagens = () =>{
+
+    const tamanhosBotao = retornaTamanhosBotao('41%','41%','41%','40px','40px','40px');
+
     alteraEstiloBody('body-home','body-messagens-perfil');
     alteraHeader(true);
     alteraIconeUsuario(false);
@@ -20,7 +24,7 @@ const Mensagens = () =>{
                 <Input label ='Telefone' placeHolder = 'Insira seu telefone e/ou whatsapp' type = 'tel'/>
                 <Input label ='Nome do Animal' placeHolder = 'Por qual animal você se interessou?' type = ''/>
                 <TextArea label ='Mensagem' placeHolder = 'Escreva sua mensagem.'/>
-                <Button>Enviar</Button>
+                <Button tamanhos={tamanhosBotao}>Enviar</Button>
             </form>
         </section>
         </>

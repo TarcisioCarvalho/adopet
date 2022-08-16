@@ -4,8 +4,10 @@ import Button from '../../Components/Button';
 import Input from '../../Components/Input';
 import Logo from '../../Components/Logo';
 import './Cadastro.css';
+import { retornaTamanhosBotao } from '../../utils/retorna-objeto-tamanhos-botao';
 
 const Cadastro = () =>{
+    const tamanhosBotao = retornaTamanhosBotao('41%','174px','174px','40px','40px','40px');
     alteraEstiloBody('body--cadastro--login');
     alteraHeader(false);
     return(
@@ -18,7 +20,7 @@ Então, antes de buscar seu melhor amigo, precisamos de alguns dados:'/>
                 <Input placeHolder = 'Digite seu nome completo' label='Nome'/>
                 <Input placeHolder = 'Crie uma senha' label='Senha' type = 'password'/>
                 <Input placeHolder = 'Repita a senha criada acima' label='Confirma sua senha' type = 'password'/>
-                <Button>Cadastrar</Button>
+                <Button tamanhos={tamanhosBotao}>Entrar</Button>
             </form>
         </section>
         
