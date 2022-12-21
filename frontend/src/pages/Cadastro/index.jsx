@@ -7,9 +7,11 @@ import './Cadastro.css';
 import { retornaTamanhosBotao } from '../../utils/retorna-objeto-tamanhos-botao';
 
 const Cadastro = () =>{
+
     const tamanhosBotao = retornaTamanhosBotao('41%','174px','174px','40px','40px','40px');
     alteraEstiloBody('body--cadastro--login');
     alteraHeader(false);
+    
     return(
         <>
         <section className='cadastro'>
