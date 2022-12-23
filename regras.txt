@@ -1,0 +1,2 @@
+1 - O interessado e o dono devem morar no mesmo Estado.
+2 - Para se cadastrar o usuário deve ter mais de 18 anos.
