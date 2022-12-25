@@ -6,7 +6,8 @@ namespace AdopetAPI.Data.Mappings;
 
 public class UsuarioMap : IEntityTypeConfiguration<Usuario>
 {
-    public void Configure(EntityTypeBuilder<Usuario> builder)
+    public void Configure
+    (EntityTypeBuilder<Usuario> builder)
     {
         builder.ToTable("Usuarios");
 
@@ -23,6 +24,32 @@ public class UsuarioMap : IEntityTypeConfiguration<Usuario>
         builder.Property(x => x.Email)
             .IsRequired()
             .HasColumnType("NVARCHAR")
-            .HasMaxLength(50);
+            .HasMaxLength(320);
+        
+        builder.Property(x => x.Senha)
+            .IsRequired()
+            .HasColumnType("CHAR")
+            .HasMaxLength(16);
+
+        builder.Property(x => x.Telefone)
+            .HasColumnType("CHAR")
+            .HasMaxLength(11);
+
+        builder.Property(x => x.Cidade)
+            .HasColumnType("VARCHAR")
+            .HasMaxLength(200);
+        
+        builder.Property(x => x.EnderecoFotoPerfil)
+            .HasColumnType("NVARCHAR")
+            .HasMaxLength(300);
+
+        builder.Property(x => x.Sobre)
+            .HasColumnType("NVARCHAR")
+            .HasMaxLength(600);
+        
+        builder.Property(x => x.RegistradoEm)
+            .HasDefaultValue(DateTime.Now)
+            .ValueGeneratedOnAdd();
+
     }
 }
