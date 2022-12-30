@@ -29,11 +29,14 @@ public class AnimalMap : IEntityTypeConfiguration<Animal>
             .HasColumnType("NVARCHAR")
             .HasMaxLength(300);
         
-        //builder.Property(x => x.DataNascimento)
-          //  .HasColumnType("")
+        builder.Property(x => x.DataNascimento)
+            .IsRequired()
+            .HasColumnType("DATE");
         
         builder.Property(x => x.Tamanho)
             .HasColumnType("CHAR")
             .HasMaxLength(1);
+
+        
     }
 }

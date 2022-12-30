@@ -8,6 +8,15 @@ public class MensagemMap : IEntityTypeConfiguration<Mensagem>
 {
     public void Configure(EntityTypeBuilder<Mensagem> builder)
     {
-        throw new NotImplementedException();
+        builder.ToTable("Mensagens");
+
+        builder.HasKey(x => x.Id);
+
+        builder.Property(x => x.Id)
+            .ValueGeneratedOnAdd();
+
+        builder.Property(x => x.Conteudo)
+            .HasColumnType("NVARCHAR")
+            .HasMaxLength(400);
     }
 }

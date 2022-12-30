@@ -8,6 +8,15 @@ public class AdocaoMap : IEntityTypeConfiguration<Adocao>
 {
     public void Configure(EntityTypeBuilder<Adocao> builder)
     {
-        throw new NotImplementedException();
+        builder.ToTable("Adocoes");
+
+        builder.HasKey(x => x.Id);
+
+        builder.Property(x => x.Id)
+            .ValueGeneratedOnAdd();
+
+        builder.Property(x => x.DataAdocao)
+            .HasDefaultValue(DateTime.Now)
+            .ValueGeneratedOnAdd();
     }
 }
