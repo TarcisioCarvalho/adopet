@@ -11,5 +11,8 @@ public class Usuario
     public DateTime RegistradoEm { get; set; }
     public string Cidade { get; set; }
     public string Senha { get; set; }
-    public List<Animal> Animais { get; set; }
+
+    // public List<Adocao> Adocoes { get; set; }
+    // public List<Mensagem> Mensagens { get; set; }
+    // public List<Animal> Animais { get; set; }
 }
