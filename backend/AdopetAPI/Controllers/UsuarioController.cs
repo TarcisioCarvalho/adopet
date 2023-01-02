@@ -37,18 +37,32 @@ public class UsuarioController:ControllerBase
 
         return Ok(usuario);
     }
+
+
+
     [HttpPost("v1/usuarios")]
     public async Task<IActionResult> PostUsuarioAsync(
         [FromBody] Usuario usuario,
         [FromServices] AdopetDbContext context
     )
     {
-        await context.Usuarios.AddAsync(usuario);
-        await context.SaveChangesAsync();
+        try
+        {
+            await context.Usuarios.AddAsync(usuario);
+            await context.SaveChangesAsync();
 
-        
+            return Created($"v1/usuarios/{usuario.Id}",usuario);
+        }
+        catch(DbUpdateException ex)
+        {
+            return StatusCode(500,"05xE9 - Não foi possível registrar usuário");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500,"05x10 - Falha Interna");
+        }
 
-        return Created($"v1/usuarios/{usuario.Id}",usuario);
+      
     }
     [HttpPut("v1/usuarios/{id:int}")]
     public async Task<IActionResult> PutUsuarioAsync(
