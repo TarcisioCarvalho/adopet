@@ -1,5 +1,6 @@
 using AdopetAPI.Data;
 using AdopetAPI.Models;
+using AdopetAPI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -42,12 +43,20 @@ public class UsuarioController:ControllerBase
 
     [HttpPost("v1/usuarios")]
     public async Task<IActionResult> PostUsuarioAsync(
-        [FromBody] Usuario usuario,
+        [FromBody] CreateUsuarioViewModel viewModel,
         [FromServices] AdopetDbContext context
     )
     {
         try
         {
+            var usuario = new Usuario()
+            {
+                Id = 0,
+                Nome = viewModel.Nome,
+                Email = viewModel.Email,
+                Senha = "1234567890123456"
+            };
+
             await context.Usuarios.AddAsync(usuario);
             await context.SaveChangesAsync();
 
@@ -55,7 +64,7 @@ public class UsuarioController:ControllerBase
         }
         catch(DbUpdateException ex)
         {
-            return StatusCode(500,"05xE9 - Não foi possível registrar usuário");
+            return StatusCode(500,"05xE9 - Não foi possível registrar usuário" +  ex.InnerException.Message);
         }
         catch (Exception ex)
         {
