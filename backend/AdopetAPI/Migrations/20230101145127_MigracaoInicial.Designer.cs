@@ -27,7 +27,6 @@ namespace AdopetAPI.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Cidade")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("VARCHAR");
 
@@ -37,7 +36,6 @@ namespace AdopetAPI.Migrations
                         .HasColumnType("NVARCHAR");
 
                     b.Property<string>("EnderecoFotoPerfil")
-                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("NVARCHAR");
 
@@ -57,12 +55,10 @@ namespace AdopetAPI.Migrations
                         .HasColumnType("CHAR");
 
                     b.Property<string>("Sobre")
-                        .IsRequired()
                         .HasMaxLength(600)
                         .HasColumnType("NVARCHAR");
 
                     b.Property<string>("Telefone")
-                        .IsRequired()
                         .HasMaxLength(11)
                         .HasColumnType("CHAR");
 
