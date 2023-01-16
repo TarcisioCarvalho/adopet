@@ -1,3 +1,4 @@
+using AdopetAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdopetAPI.Controllers;
@@ -6,8 +7,9 @@ namespace AdopetAPI.Controllers;
 public class ContaController:ControllerBase
 {
     [HttpPost("v1/login")]
-    public IActionResult Login()
+    public IActionResult Login([FromServices] TokenService tokenService)
     {
-        
+        var token = tokenService.GenerateToken(null);
+        return Ok(token);
     } 
 }
