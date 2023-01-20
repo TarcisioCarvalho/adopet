@@ -1,7 +1,11 @@
+using System.Text;
+using AdopetAPI;
 using AdopetAPI.Data;
 using AdopetAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<AdopetDbContext>();
