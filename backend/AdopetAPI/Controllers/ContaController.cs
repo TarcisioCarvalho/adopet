@@ -8,7 +8,7 @@ namespace AdopetAPI.Controllers;
 [ApiController]
 public class ContaController:ControllerBase
 {
-    [HttpPost("v1/contar")]
+    [HttpPost("v1/contas")]
     public async Task<IActionResult> Post(
         [FromBody] RegistrarViewModel model,
         [FromServices] AdopetDbContext context 

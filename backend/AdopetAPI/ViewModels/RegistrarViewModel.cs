@@ -8,6 +8,6 @@ public class RegistrarViewModel
     public string Nome { get; set; }
     
     [Required(ErrorMessage ="O E-mail é Obrigatório")]
-    [EmailAddress(ErrorMessage ="O Email é Inválido")]
+    [EmailAddress(ErrorMessage ="O E-mail é Inválido")]
     public string Email { get; set; }
 }

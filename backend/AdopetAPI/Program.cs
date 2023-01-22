@@ -7,7 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
 
-builder.Services.AddControllers();
+builder
+.Services
+.AddControllers()
+.ConfigureApiBehaviorOptions(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+}
+);
 builder.Services.AddDbContext<AdopetDbContext>();
 builder.Services.AddTransient<TokenService>();
 
