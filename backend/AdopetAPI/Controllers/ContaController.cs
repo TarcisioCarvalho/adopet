@@ -1,4 +1,5 @@
 using AdopetAPI.Data;
+using AdopetAPI.Extensions;
 using AdopetAPI.Services;
 using AdopetAPI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -16,7 +17,9 @@ public class ContaController:ControllerBase
     {
         // Parei aki
         if(!ModelState.IsValid)
-            return BadRequest();
+            return BadRequest(new ResultViewModel<string>(ModelState.GetErrors()));
+
+        return Ok();
     }
     [HttpPost("v1/contas/login")]
     public IActionResult Login([FromServices] TokenService tokenService)
